@@ -1,4 +1,4 @@
-(#deploy-etcd)=
+(deploy-etcd)=
 # Deploy etcd
 
 To deploy charmed etcd, all you need to do is run the following command:
