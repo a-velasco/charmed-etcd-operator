@@ -1,8 +1,6 @@
 # Manage passwords
 
-When accessing etcd in the [tutorial](#access-etcd), we didn't need to include a
-password in the HTTP request. However, in order to read or write data in etcd, we
-need to authenticate ourselves.
+In the [Access etcd](#access-etcd) section of the tutorial, we didn't need to include a password in the HTTP request. However, in order to read or write data in etcd, we need to authenticate ourselves.
 
 Typically, this can be done using a username and TLS certificate. For the sake of this guide, we will also use charmed etcd's internal admin user `root`. This user is only for  internal use, and it is created automatically by charmed etcd.
 

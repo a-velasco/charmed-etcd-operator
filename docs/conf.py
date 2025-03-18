@@ -134,7 +134,7 @@ html_context = {
     # Docs branch in the repo; used in links for viewing the source files
     #
     # TODO: To customise the branch, uncomment and update as needed.
-    'repo_default_branch': '3.5/edge',
+    'repo_default_branch': 'demo',
     # Docs location in the repo; used in links for viewing the source files
     
     # TODO: To customise the directory, uncomment and update as needed.
@@ -162,10 +162,8 @@ html_theme_options = {
     "top_of_page_buttons": ["view", "edit"],
 }
 
-html_theme_options = {'source_edit_link': 'https://github.com/a-velasco/charmed-etcd-operator',
-                      'source_repository': 'https://github.com/a-velasco/charmed-etcd-operator',
-                      'source_branch': '3.5/edge',
-                      'source_directory': '/docs/'}
+html_theme_options = {'source_edit_link': 'https://github.com/a-velasco/charmed-etcd-operator'}
+
 
 # Project slug; see https://meta.discourse.org/t/what-is-category-slug/87897
 #
