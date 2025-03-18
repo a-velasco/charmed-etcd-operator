@@ -1,5 +1,6 @@
 # Manage persistent storage
-Like many other databases, etcd stores its state on disk. In a default deployment (as described in [deploy-etcd](./deploy-etcd.md)),
+
+Like many other databases, etcd stores its state on disk. In a default deployment (as described in [deploy-etcd](#deploy-etcd)),
 the filesystem attached to charmed etcd will be removed when charmed etcd is removed. The content of the etcd database
 would then be lost.
 

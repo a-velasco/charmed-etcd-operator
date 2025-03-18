@@ -1,7 +1,5 @@
+(enable-tls)=
 # Enable encryption with TLS
-
-Transport Layer Security (TLS) plays a crucial role in securing database communications.  Just as it protects web traffic, TLS encrypts the data transmitted between database clients and servers, preventing unauthorized access and ensuring confidentiality.
-
 
 etcd provides a secure transport layer for client-server and peer-to-peer communication. The etcd operator charm provides a simple way to enable TLS encryption for both:
 - Peer-to-peer (internal to the cluster): All communication between members in the cluster will be encrypted and authenticated using the client certificates. 

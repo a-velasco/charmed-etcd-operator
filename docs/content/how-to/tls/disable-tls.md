@@ -1,3 +1,4 @@
+(disable-tls)=
 # Disable encryption with TLS
 
 To disable encryption with TLS, remove the relation between `charmed-etcd` and the TLS provider on the endpoint specific to the peer-to-peer or client-to-server communication.
